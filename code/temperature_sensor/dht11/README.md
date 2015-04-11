@@ -1,7 +1,8 @@
 DHT11 Temperature- & Humidity-Sensor for ESP8266
 ================================================
 
-Read's values from DHT11 sensor, prints temperature & humidity to serial console and sends temperature & humidity to thingspeak.
+Read temperature & humidity from DHT11 sensor,
+prints values to serial console and sends values to thingspeak.
 
 Note (!)
 --------
@@ -22,6 +23,10 @@ Disclaimer
 ----------
 Parts of the source code are taken from here:
 [http://www.esp8266.com/viewtopic.php?f=19&t=1363&start=0](http://www.esp8266.com/viewtopic.php?f=19&t=1363&start=0)
+
+Hardware Setup
+--------------
+![Circuit DHT11, ESP-01](../circuit/esp01_ftdi_Steckplatine_crop.png)
 
 Screenshots
 -----------
