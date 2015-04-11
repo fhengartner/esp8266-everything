@@ -12,7 +12,7 @@ For measuring humidity the accuracy of DHT22 is much better, I suggest you switc
 
 Usage
 -----
-
+1. install nodemcu firmware on esp
 1. copy init.lua.example -> init.lua
 1. configure WLAN & SSID in init.lua
 1. cp senddata.lua.example -> senddata.lua

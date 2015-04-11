@@ -6,6 +6,7 @@ prints values to serial console and sends values to thingspeak.
 
 Usage
 -----
+1. install nodemcu firmware on esp
 1. copy init.lua.example -> init.lua
 1. configure WLAN & SSID in init.lua
 1. cp senddata.lua.example -> senddata.lua
