@@ -1,0 +1,22 @@
+print("Setting up WIFI...")
+wifi.setmode(wifi.STATION)
+-- edit here:
+wifi.sta.config("Set SSID","Set Password")
+wifi.sta.connect()
+tmr.delay(1000000)
+print(wifi.sta.getip())
+
+-- every 10s
+tmr.alarm(1, 10000, 1, function() 
+	if wifi.sta.getip()== nil then 
+		print("IP unavailable, Waiting...") 
+	else 
+		tmr.stop(1)
+		print("Config done, IP is "..wifi.sta.getip())
+		dofile("readdht22.lua")
+		dofile("senddata.lua")
+	end 
+end)
+
+
+
