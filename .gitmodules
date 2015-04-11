@@ -1,0 +1,12 @@
+[submodule "lib/esptool"]
+	path = lib/esptool
+	url = https://github.com/themadinventor/esptool/
+[submodule "lib/luatool"]
+	path = lib/luatool
+	url = https://github.com/4refr0nt/luatool
+[submodule "lib/nodemcu-firmware"]
+	path = lib/nodemcu-firmware
+	url = https://github.com/nodemcu/nodemcu-firmware.git
+[submodule "lib/thingspeakmultichannel-highcharts"]
+	path = lib/thingspeakmultichannel-highcharts
+	url = https://github.com/fhengartner/thingspeakmultichannel-highcharts
